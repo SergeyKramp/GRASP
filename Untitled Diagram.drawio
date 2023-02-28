@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T14:32:54.973Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="xeA9FzW6wRnPL2MGaVHN" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T15:09:11.895Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Iy8VQTNoBKtTvOH0NGAt" version="20.8.23" type="github">
   <diagram name="Page-1" id="mLbz9eAWHB7ZxAyIJyGc">
-    <mxGraphModel dx="964" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2112" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,8 +18,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-1" target="Foyw20LHFuZPrQQ8JJ1W-35">
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="140" as="targetPoint" />
             <Array as="points">
               <mxPoint x="410" y="90" />
               <mxPoint x="610" y="90" />
@@ -28,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Foyw20LHFuZPrQQ8JJ1W-1" value="Get relevant subreddits" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="10" width="200" height="50" as="geometry" />
+          <mxGeometry x="310" y="10" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Foyw20LHFuZPrQQ8JJ1W-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-2" target="Foyw20LHFuZPrQQ8JJ1W-6">
           <mxGeometry relative="1" as="geometry" />
@@ -58,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Foyw20LHFuZPrQQ8JJ1W-14" value="Query subreddit with self reporting patterns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="505" y="200" width="220" height="60" as="geometry" />
+          <mxGeometry x="505" y="210" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Foyw20LHFuZPrQQ8JJ1W-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-17" target="Foyw20LHFuZPrQQ8JJ1W-30">
           <mxGeometry relative="1" as="geometry" />
@@ -81,7 +82,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Foyw20LHFuZPrQQ8JJ1W-23" value="Remove posts shorter than a threshold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="850" width="280" height="60" as="geometry" />
+          <mxGeometry x="270" y="870" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Foyw20LHFuZPrQQ8JJ1W-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-25" target="Foyw20LHFuZPrQQ8JJ1W-27">
           <mxGeometry relative="1" as="geometry" />
@@ -114,6 +115,12 @@
         </mxCell>
         <mxCell id="Foyw20LHFuZPrQQ8JJ1W-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Where there is class imbalance, undersample the majority class&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="270" y="1260" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-43" value="&lt;h1&gt;Flair-based Attributes:&lt;/h1&gt;&lt;p&gt;1) Native language&lt;/p&gt;&lt;p&gt;2) Personality&lt;/p&gt;&lt;p&gt;3) Political Leaning&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="145" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-45" value="&lt;h1&gt;Query-based Attributes:&lt;/h1&gt;&lt;p&gt;1) Age&lt;/p&gt;&lt;p&gt;2) Gender&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="150" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
