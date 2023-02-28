@@ -1,1 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T12:49:46.292Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="hTKCCMTJFcaTeahIBSLo" type="github"><diagram name="Page-1" id="mLbz9eAWHB7ZxAyIJyGc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-28T14:32:54.973Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="xeA9FzW6wRnPL2MGaVHN" version="20.8.23" type="github">
+  <diagram name="Page-1" id="mLbz9eAWHB7ZxAyIJyGc">
+    <mxGraphModel dx="964" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="140" width="330" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="140" width="330" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-1" target="Foyw20LHFuZPrQQ8JJ1W-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="90" />
+              <mxPoint x="210" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-1" target="Foyw20LHFuZPrQQ8JJ1W-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="90" />
+              <mxPoint x="610" y="90" />
+              <mxPoint x="610" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-1" value="Get relevant subreddits" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-2" target="Foyw20LHFuZPrQQ8JJ1W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-2" value="Get all flairs" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-6" target="Foyw20LHFuZPrQQ8JJ1W-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-6" value="Process flairs:&amp;nbsp;&lt;br&gt;1) Assign categories with regex&amp;nbsp;&lt;br&gt;AND/ OR&lt;br&gt;2) Filter flairs bellow a threshold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-8" target="Foyw20LHFuZPrQQ8JJ1W-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-8" value="Assign label to author based on flair" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-12" target="Foyw20LHFuZPrQQ8JJ1W-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-12" value="Check that an author doesn&#39;t have contradictory labels (e.g. liberal and conservative)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="560" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-14" target="Foyw20LHFuZPrQQ8JJ1W-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-14" value="Query subreddit with self reporting patterns" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-17" target="Foyw20LHFuZPrQQ8JJ1W-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-17" value="Label user based on query match" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-20" target="Foyw20LHFuZPrQQ8JJ1W-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="810" />
+              <mxPoint x="410" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-20" value="Get all author posts not from the original subreddit&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-23" target="Foyw20LHFuZPrQQ8JJ1W-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-23" value="Remove posts shorter than a threshold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="850" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-25" target="Foyw20LHFuZPrQQ8JJ1W-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-25" value="Create copy of dataset for each attribute" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="990" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-27" target="Foyw20LHFuZPrQQ8JJ1W-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-27" value="For each attribute make sure that there is class balance in each subreddit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="1130" width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Foyw20LHFuZPrQQ8JJ1W-30" target="Foyw20LHFuZPrQQ8JJ1W-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="810" />
+              <mxPoint x="410" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-30" value="Check that an author doesn&#39;t have contradictory labels (e.g. male and female)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="560" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Flair-based&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-38" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Query-based&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Foyw20LHFuZPrQQ8JJ1W-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Where there is class imbalance, undersample the majority class&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1260" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
